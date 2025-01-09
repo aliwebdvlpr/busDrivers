@@ -241,7 +241,7 @@ const BusDriverFinder = () => {
       name: 'Ali',
       age: 55,
       experience: '15 years',
-      image: '\driver-images\driver1.png',
+      image: '/driver-images/driver1.png',
       pickupLocations: ['Olayya', 'Yasmeen', 'Malga'],
       destinations: ['Nora Uni', 'Imam Uni', 'King Saud Uni'],
       carModel: '2023 Toyota Hiace',
@@ -250,10 +250,10 @@ const BusDriverFinder = () => {
       tripPrice: 45,
       minBookings: 20,
       carImages: [
-        "\car-images\car1.png",
-        "\car-images\car2.png",
-        "\car-images\car3.png",
-        "\car-images\car4.png"
+        "/car-images/car1.png",
+        "/car-images/car2.png",
+        "/car-images/car3.png",
+        "/car-images/car4.png"
       ]
     },
     {
@@ -261,7 +261,7 @@ const BusDriverFinder = () => {
       name: 'Ahmad',
       age: 47,
       experience: '13 years',
-      image: '/image2.jpg',
+      image: '/driver-images/driver2.png',
       pickupLocations: ['Narjes', 'Malga'],
       destinations: ['Imam Uni', 'King Saud Uni'],
       carModel: '2022 Toyota Coaster',
@@ -270,10 +270,10 @@ const BusDriverFinder = () => {
       tripPrice: 50,
       minBookings: 20,
       carImages: [
-        "\car-images\car1.png",
-        "\car-images\car2.png",
-        "\car-images\car3.png",
-        "\car-images\car4.png"
+        "/car-images/car1.png",
+        "/car-images/car2.png",
+        "/car-images/car3.png",
+        "/car-images/car4.png"
       ]
     },
     {
@@ -281,7 +281,7 @@ const BusDriverFinder = () => {
       name: 'Khalid',
       age: 61,
       experience: '27 years',
-      image: '/image3.jpg',
+      image: '/driver-images/driver3.png',
       pickupLocations: ['Olayya', 'Yasmeen'],
       destinations: ['Nora Uni'],
       carModel: '2021 Toyota Hiace',
@@ -290,10 +290,10 @@ const BusDriverFinder = () => {
       tripPrice: 40,
       minBookings: 20,
       carImages: [
-        "\car-images\car1.png",
-        "\car-images\car2.png",
-        "\car-images\car3.png",
-        "\car-images\car4.png"
+        "/car-images/car1.png",
+        "/car-images/car2.png",
+        "/car-images/car3.png",
+        "/car-images/car4.png"
       ]
     }
   ];
@@ -429,7 +429,7 @@ const BusDriverFinder = () => {
               {/* Driver Image Placeholder */}
               <div className="w-24 h-24 bg-gray-200 rounded-full flex items-center justify-center overflow-hidden">
                 <img
-                  src="\driver-images\driver1.png"
+                  src="/driver-images/driver2.png"
                   alt="Driver"
                   className="w-full h-full object-cover"
                 />
